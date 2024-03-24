@@ -1,0 +1,113 @@
+table{
+    overflow: hidden;
+    /* background-color: gray; */
+}
+tr{
+    /* padding-top: 2rem;
+    padding-bottom: 2rem; */
+    padding: 2rem;
+    display: flex;
+   
+    width: 100vw;
+    
+}.row1{
+    gap: 14rem;
+    color: black;
+    width: 94%;
+    text-align: center;
+    /* border: 2px solid green; */
+}.row2{
+    gap:4rem;
+    text-align: center;
+    width: 94%;
+    color: black;
+}
+
+td{
+    width:11rem;
+    /* overflow-y: auto; */
+    /* width: 51rem; */
+    word-wrap: break-word;
+
+}.name{
+    position: relative;
+    left: 4rem;
+    /* border-bottom: 2px solid green; */
+width: fit-content;
+}
+.money{
+    position: relative;
+    right: -1rem;
+    width: fit-content;
+    /* border-bottom: 2px solid green; */
+    
+}.time{
+    position: relative;
+    right: 1rem;
+    width: fit-content;
+    /* border-bottom: 2px solid green; */
+}.from{
+    position: relative;
+    width: fit-content;
+    /* border-bottom: 2px solid green; */
+    right: 4rem;
+}.message{
+    position: relative;
+    width: fit-content;
+    /* border-bottom: 2px solid green; */
+    right: 7.7rem;
+    text-align: center;
+}.record{
+    margin-top: 2rem;
+    width: 100%;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(199, 169, 94);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}.people{
+    padding: 1rem;
+    background: rgb(195,120,34);
+    width: inherit;
+/* background: linear-gradient(0deg, rgba(195,120,34,1) 0%, rgba(76,45,253,1) 100%); */
+background: rgba(255,255,255,0.3);
+}li{
+    background-color: black;
+    border-radius: 8px;
+    margin-right: 3px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}li #navcol{
+    color: white;
+} NavLink .active{
+    color: red;
+}.lock{
+    position: relative;
+    left: 3rem;
+}.rec{
+    position: relative;
+    left: -3.5rem;
+}.con{
+    position: relative;
+    left: -7rem;
+}
+
+
+@media screen and (max-width:1100px) {
+  .conta{
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+  }.row1,.row2{
+    gap: 2rem;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+  }.name,.money,.message,.from,.time{
+position: static;
+text-align: center;
+  }.message{
+    margin-top: 38px;
+  }
+}
